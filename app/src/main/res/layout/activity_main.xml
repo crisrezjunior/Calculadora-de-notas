@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/white"
+    tools:context=".MainActivity">
+
+
+ <EditText
+     android:id="@+id/nota1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentStart="true"
+     android:layout_marginStart="60dp"
+     android:layout_marginTop="60dp"
+     android:layout_marginEnd="60dp"
+     android:layout_marginBottom="60dp"
+     android:hint="Nota 1"
+     android:minHeight="48dp"
+     android:textAlignment="center" />
+
+ <EditText
+     android:id="@+id/nota2"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentEnd="true"
+     android:layout_marginStart="60dp"
+
+     android:layout_marginTop="60dp"
+
+     android:layout_marginEnd="60dp"
+     android:layout_marginBottom="60dp"
+     android:hint="Nota 2"
+     android:minHeight="48dp"
+     android:textAlignment="center" />
+
+ <EditText
+     android:id="@+id/nota3"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/nota1"
+     android:layout_alignParentStart="true"
+     android:layout_marginStart="60dp"
+     android:layout_marginTop="60dp"
+     android:layout_marginEnd="60dp"
+     android:layout_marginBottom="60dp"
+     android:hint="Nota 3"
+     android:minHeight="48dp"
+     android:textAlignment="center" />
+
+ <EditText
+     android:id="@+id/nota4"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/nota2"
+     android:layout_alignParentEnd="true"
+     android:layout_marginStart="60dp"
+     android:layout_marginTop="60dp"
+     android:layout_marginEnd="60dp"
+     android:layout_marginBottom="60dp"
+     android:hint="Nota 4"
+     android:minHeight="48dp"
+     android:textAlignment="center" />
+
+ <EditText
+     android:id="@+id/faltas"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@id/nota4"
+     android:layout_centerHorizontal="true"
+     android:hint="Faltas"
+     android:minHeight="48dp"
+     android:textAlignment="center" />
+
+ <Button
+
+     android:id="@+id/btn_calcular"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:textColor="@color/white"
+     android:text="Calcular média"
+     android:backgroundTint="@color/Blue"
+     android:layout_below="@id/faltas"
+     android:layout_centerHorizontal="true"
+     android:layout_marginTop="40dp"
+     />
+ <TextView
+     android:id="@+id/media_final"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_centerHorizontal="true"
+     android:layout_below="@+id/btn_calcular"
+     android:textSize="30sp"
+     android:layout_margin="10dp"
+     android:textAlignment="center"
+     />
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_centerHorizontal="true"
+     android:layout_below="@+id/media_final"
+
+     />
+</RelativeLayout>
